@@ -1,0 +1,7 @@
+Cxampphtdocsportal-kerja php artisan serve
+
+Jalankan aplikasi dengan ketik http://127.0.0.1:8000.
+Jalankan aplikasi dengan ketik http://127.0.0.1:8000/loginAdmin.
+Login Admin dengan username : Admin, password : admin123.
+
+https://youtu.be/-oqMQd_Bs_E?si=wEvgTwQ_QORCwV_4

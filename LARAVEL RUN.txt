@@ -1,0 +1,20 @@
+Cara menjalankan Laravel paling mudah adalah menggunakan terminal/command prompt dengan masuk ke folder proyek dan mengetik php artisan serve. Pastikan PHP dan Composer sudah terinstal. Perintah ini akan menyalakan server lokal yang dapat diakses melalui http://localhost:8000 di browser. 
+Berikut adalah langkah-langkah detail menjalankan Laravel:
+1. Menjalankan Server Lokal (Laravel Artisan) 
+Ini adalah metode tercepat untuk pengembangan:
+Buka Terminal/CMD: Arahkan ke direktori proyek Anda, contoh: cd C:\xampp\htdocs\nama-proyek-anda.
+Jalankan Perintah: Ketik php artisan serve.
+Akses di Browser: Buka browser dan ketik http://localhost:8000. 
+2. Menggunakan XAMPP/Laragon (Apache) 
+Jika menggunakan local server seperti XAMPP:
+Pindahkan proyek Laravel ke dalam folder htdocs (XAMPP) atau www (Laragon).
+Aktifkan Apache di XAMPP Control Panel.
+Akses melalui http://localhost/nama-proyek-anda/public. 
+3. Menggunakan Docker
+Untuk proyek yang menggunakan kontainer:
+Pastikan Docker sudah terinstal.
+Jalankan perintah docker-compose up -d di terminal dalam folder proyek. 
+Hal yang Perlu Diperhatikan:
+File .env: Pastikan file .env sudah ada (jika belum, salin dari .env.example) dan konfigurasi database sudah benar.
+Ketergantungan: Jika baru mengklon dari Git, jalankan composer install terlebih dahulu.
+Kunci Aplikasi: Jalankan php artisan key:generate jika aplikasi belum memiliki APP_KEY. 
